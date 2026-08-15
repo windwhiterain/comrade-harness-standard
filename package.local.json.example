@@ -1,0 +1,17 @@
+{
+  "name": "comrade-harness-standard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "local:on": "bun scripts/local-switch.ts on",
+    "local:off": "bun scripts/local-switch.ts off"
+  },
+  "dependencies": {
+    "comrade-harness-lib": "link:comrade-harness-lib"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/bun": "latest"
+  }
+}
